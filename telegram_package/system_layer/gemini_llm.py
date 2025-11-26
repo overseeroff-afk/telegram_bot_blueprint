@@ -6,7 +6,7 @@ load_dotenv()
 class GeminiLLM:
     def __init__(self, GEMINI_API_KEY):
 
-        self.model_name = 'gemini-2.0-flash'
+        self.model_name = 'gemini-pro'
         self.config = genai.types.GenerateContentConfig(
             temperature=1,
             system_instruction="Generate the answer within 750 characters."
